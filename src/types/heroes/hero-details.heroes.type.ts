@@ -6,6 +6,7 @@ type ImageType = {
 };
 
 export type HeroType = {
+  id: string;
   nickname: string;
   realName: string;
   originDescription: string;
