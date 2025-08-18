@@ -1,10 +1,16 @@
 import type { HeroSuperpowersEnum } from "@/enums/heroes/superpowers.heroes.enum";
 
+type ImageType = {
+  url: string;
+  publicId: string;
+};
+
 export type HeroType = {
+  id: string;
   nickname: string;
   realName: string;
   originDescription: string;
   superPowers: HeroSuperpowersEnum[];
   catchPhrase: string;
-  images: string[];
+  images: ImageType[];
 };
