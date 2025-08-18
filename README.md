@@ -10,7 +10,7 @@ A small gallery application to browse, view, and manage superheroes.
 - **React Router** for client-side routing
 - **Axios** for HTTP requests
 - **shadcn/ui** for UI components (built on Radix + Tailwind)
-- **ESLint** (TypeScript-aware configs) + **Prettier** *(optional)*
+- **ESLint** (TypeScript-aware configs) + **Prettier**
 
 ---
 
