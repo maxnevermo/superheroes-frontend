@@ -1,0 +1,16 @@
+export enum HeroSuperpowersEnum {
+  Flight = "Flight",
+  SuperStrength = "Super strength",
+  SuperSpeed = "Super speed",
+  Agility = "Agility",
+  HealingFactor = "Healing factor",
+  Invulnerability = "Invulnerability",
+  HeatVision = "Heat vision",
+  SolarFlare = "Solar flare",
+  Telepathy = "Telepathy",
+  Telekinesis = "Telekinesis",
+  Invisibility = "Invisibility",
+  Shapeshifting = "Shapeshifting",
+  Elemental = "Elemental control",
+  TimeManipulation = "Time manipulation",
+}
