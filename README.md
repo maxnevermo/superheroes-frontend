@@ -20,8 +20,7 @@ CRUD: create, read, update, and delete heroes
 npm i
 
 # 2) Configure environment
-cp .env.example .env.local
-# set VITE_API_URL in .env.local
+Create .env file and set VITE_API_URL there
 
 # 3) Start the dev server
 npm run dev
