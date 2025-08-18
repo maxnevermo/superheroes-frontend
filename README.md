@@ -27,13 +27,18 @@ A small gallery application to browse, view, and manage superheroes.
 ### 1) Install dependencies
 ```bash
 npm i
-2) Configure environment
+```bash
+
+### 2) Configure environment
 
 Create a .env file in the project root and set the API base URL:
-
+```bash
 VITE_API_URL="https://your-backend.example.com"
+```bash
 
 3) Start the dev server
+```bash
 npm run dev
+```bash
 
 Open the app in your browser at the URL printed by the Vite dev server.
