@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BigNoodleToo";
+  src: url("/fonts/BigNoodle/BigNoodleToo.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer utilities {
+  .base-button {
+    @apply flex items-center justify-center gap-2 rounded-xl font-bold cursor-pointer transition-all duration-300 disabled:bg-neutral-300 h-fit w-fit;
+  }
+
+  .base-primary-button {
+    @apply bg-[#EFF4FA] text-black border-2 border-[#b5b7ba] hover:bg-[#b5b7ba];
+  }
+
+  .base-secondary-button {
+    @apply bg-[#F5F5F5] text-black hover:bg-neutral-200 border-2 border-neutral-200;
+  }
+
+  .lg-button {
+    @apply text-xl py-3 px-3;
+  }
+
+  .md-button {
+    @apply text-sm py-2.5 px-3;
+  }
+
+  .sm-button {
+    @apply text-xs py-2 px-2.5;
+  }
+
+  .full-width-button {
+    @apply w-full;
+  }
+
+  .full-height-button {
+    @apply h-full;
+  }
+
+  .input-container {
+    @apply flex flex-col font-[600] w-full gap-2 pb-[20px] relative;
+  }
+
+  .base-input {
+    @apply w-full rounded-xl border py-[23px] px-[20px] font-[400] bg-[#F9F9F9] focus:outline-none focus:border-[#a1a1a1] text-base;
+  }
+}
+
+:root {
+  font-family: "BigNoodleToo", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
