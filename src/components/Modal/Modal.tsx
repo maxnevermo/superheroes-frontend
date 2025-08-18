@@ -25,9 +25,7 @@ function Modal() {
       <DialogTitle />
       <DialogDescription />
       <DialogClose />
-      <DialogContent className="w-full max-h-[80%] md:max-h-full overflow-y-scroll max-w-md max-sm:w-[95vw] max-sm:max-w-none max-sm:p-4 sm:max-w-lg md:max-w-xl">
-        {modalContent}
-      </DialogContent>
+      <DialogContent className="w-full">{modalContent}</DialogContent>
     </Dialog>
   );
 }

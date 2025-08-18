@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Modal } from "../Modal/Modal";
 
 function Layout() {
   return (
@@ -6,6 +7,7 @@ function Layout() {
       <main>
         <Outlet />
       </main>
+      <Modal />
     </div>
   );
 }

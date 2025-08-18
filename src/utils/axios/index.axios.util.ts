@@ -36,3 +36,12 @@ export const axiosPut = async <T, B>(
 
   return response.data;
 };
+
+export const axiosDelete = async <T>(
+  url: string,
+  config?: AxiosRequestConfig
+): Promise<T> => {
+  const response = await baseAxiosInstance.delete<T>(url, config);
+
+  return response.data;
+};
