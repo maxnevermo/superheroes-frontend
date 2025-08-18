@@ -2,14 +2,7 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <div
-      className="
-    mx-auto
-    lg:w-[1260px]
-    md:w-[768px]
-    w-[393px]
-    "
-    >
+    <div className="min-h-screen min-w-screen">
       <main>
         <Outlet />
       </main>
